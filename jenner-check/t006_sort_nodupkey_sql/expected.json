@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-18T15:24:53.352259+00:00",
+  "_captured_run_id": "r_d03eb52af39845e38ca515a0e1905997",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote sorted_data (50 rows, 14 columns).",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: PROC SQL statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

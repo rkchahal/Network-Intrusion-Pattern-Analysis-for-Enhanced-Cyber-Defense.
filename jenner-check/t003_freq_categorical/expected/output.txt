@@ -1,0 +1,39 @@
+                                                   The FREQ Procedure
+
+                                      Cumulative    Cumulative
+protocol    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+HTTP               14     28.00           14        28.00
+HTTPS               9     18.00           23        46.00
+ICMP               10     20.00           33        66.00
+TCP                 7     14.00           40        80.00
+UDP                10     20.00           50       100.00
+                                                   The FREQ Procedure
+
+                                           Cumulative    Cumulative
+attack_type      Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+Brute Force              9     18.00            9        18.00
+DDoS                    10     20.00           19        38.00
+Malware                  8     16.00           27        54.00
+Phishing                 7     14.00           34        68.00
+Ransomware               8     16.00           42        84.00
+SQL Injection            8     16.00           50       100.00
+                                                   The FREQ Procedure
+
+                                      Cumulative    Cumulative
+severity    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+                    1      2.00            1         2.00
+Critical            2      4.00            3         6.00
+High               12     24.00           15        30.00
+Low                17     34.00           32        64.00
+Medium             18     36.00           50       100.00
+                                                   The FREQ Procedure
+
+                                        Cumulative    Cumulative
+status        Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------
+                      1      2.00            1         2.00
+Blocked              38     76.00           39        78.00
+Successful           11     22.00           50       100.00

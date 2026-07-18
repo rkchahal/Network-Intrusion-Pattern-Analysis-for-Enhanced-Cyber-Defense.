@@ -1,0 +1,42 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA cyber
+
+NOTE: Processing inline DATALINES (50 lines)
+
+NOTE: Read 50 rows from DATALINES.
+NOTE: Wrote cyber (50 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC UNIVARIATE
+NOTE: Output dataset boxStats has 1 observations and 6 variables.
+NOTE: DATA fence
+
+
+NOTE: Read 1 rows from boxstats.
+NOTE: Wrote fence (1 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+MPRINT(OUTLIER_ANALYSIS):   proc print data=fence;run;
+MPRINT(OUTLIER_ANALYSIS):   data detected_outliers;
+MPRINT(OUTLIER_ANALYSIS):   set cyber;
+MPRINT(OUTLIER_ANALYSIS):   if duration < -162.69625000000002 or duration > 487.19375 or num_packets < -276 or num_packets > 748 ;
+MPRINT(OUTLIER_ANALYSIS):   run;
+MPRINT(OUTLIER_ANALYSIS):   proc print data=detected_outliers; run;
+NOTE: PROC PRINT data=fence
+
+NOTE: PROC PRINT completed: 1 observations printed, 10 variables
+NOTE: DATA detected_outliers
+
+
+NOTE: Read 50 rows from cyber.
+NOTE: Wrote detected_outliers (1 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=detected_outliers
+
+NOTE: PROC PRINT completed: 1 observations printed, 14 variables

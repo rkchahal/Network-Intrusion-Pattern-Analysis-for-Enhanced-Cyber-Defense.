@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-18T15:24:53.352259+00:00",
+  "_captured_run_id": "r_7ce95607fa7b4f37bfc4b61db1b4d003",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 50 rows from DATALINES.",
+    "NOTE: Wrote cyber (50 rows, 14 columns).",
+    "NOTE: PROC PRINT completed: 15 observations printed, 14 variables",
+    "NOTE: PROC CONTENTS completed: 50 observations, 14 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

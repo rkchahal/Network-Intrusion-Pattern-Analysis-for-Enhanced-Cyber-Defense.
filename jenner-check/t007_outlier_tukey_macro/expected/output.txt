@@ -1,0 +1,123 @@
+                                                The UNIVARIATE Procedure
+                                                  Variable:  duration
+
+                                                        Moments
+
+N                                 50    Sum Weights                       50
+Mean                      163.709750    Sum Observations         8185.487516
+Std Deviation             103.123777    Variance                10634.513463
+Skewness                    1.070507    Kurtosis                    3.498652
+Uncorrected SS        1861135.277264    Corrected SS           521091.159697
+Coeff Variation            62.991836    Std Error Mean             14.583904
+
+           Basic Statistical Measures            
+
+Location              Variability                
+--------  ----------  -------------  ------------
+Mean      163.709750  Std Deviation    103.123777
+Median    151.865000  Variance       10634.513463
+Mode               .  Range            563.307516
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min        9.940000
+1%            9.940000
+5%           15.600000
+10%          38.620000
+25% Q1       84.650000
+50% Median  151.865000
+75% Q3      243.370000
+90%         259.690000
+95%         282.300000
+99%         573.247516
+100% Max    573.247516
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value      9.940000  Value     260.100000
+Value     14.880000  Value     270.940000
+Value     15.600000  Value     282.300000
+Value     19.590000  Value     290.420000
+Value     37.870000  Value     573.247516
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         11.225371833         0
+Sign                       25         0
+Signed Rank              1275  0.000000001
+
+
+                                                The UNIVARIATE Procedure
+                                                 Variable:  num_packets
+
+                                                        Moments
+
+N                                 50    Sum Weights                       50
+Mean                      244.880000    Sum Observations        12244.000000
+Std Deviation             144.463630    Variance                20869.740408
+Skewness                   -0.070732    Kurtosis                   -1.402962
+Uncorrected SS        4020928.000000    Corrected SS          1022617.280000
+Coeff Variation            58.993642    Std Error Mean             20.430242
+
+           Basic Statistical Measures            
+
+Location              Variability                
+--------  ----------  -------------  ------------
+Mean      244.880000  Std Deviation    144.463630
+Median    267.500000  Variance       20869.740408
+Mode      108.000000  Range            464.000000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       14.000000
+1%           14.000000
+5%           33.000000
+10%          49.500000
+25% Q1      108.000000
+50% Median  267.500000
+75% Q3      363.000000
+90%         436.500000
+95%         462.000000
+99%         478.000000
+100% Max    478.000000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     14.000000  Value     440.000000
+Value     23.000000  Value     456.000000
+Value     33.000000  Value     462.000000
+Value     40.000000  Value     463.000000
+Value     49.000000  Value     478.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         11.986152398         0
+Sign                       25         0
+Signed Rank              1275  0.000000001
+
+
+  Obs  IQR_VAR1  IQR_VAR2  Q3_var1  Q3_var2  Q1_var1  Q1_var2    LIF_var1   UIF_var1  LIF_var2  UIF_var2
+-----  --------  --------  -------  -------  -------  -------  ----------  ---------  --------  --------
+    1  162.4725       256  243.485      364  81.0125      108  -162.69625  487.19375      -276       748
+
+  Obs        source_ip  destination_ip  protocol  attack_type  severity      status         timestamp  packet_size      duration  num_packets  attack_score    rand_noise  log_duration  log_attack_score
+-----  ---------------  --------------  --------  -----------  --------  ----------  ----------------  -----------  ------------  -----------  ------------  ------------  ------------  ----------------
+    1  133.144.103.224  23.112.190.220  HTTPS     DDoS         High      Successful  01JAN24:03:00:00         1394  573.24751623          280  6050.0634842  -31.85270837  6.3513176064      8.2892581581
