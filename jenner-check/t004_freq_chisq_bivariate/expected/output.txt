@@ -1,0 +1,83 @@
+                                        BIVARIATE ANALYSIS: Status AND Severity
+
+                                                   The FREQ Procedure
+
+Table of status by severity
+
+status     |  Critical |      High |       Low |    Medium |      Total
+-----------+-----------+-----------+-----------+-----------+-----------
+Blocked    |         2 |         8 |        12 |        15 |         37
+           |      4.17 |     16.67 |     25.00 |     31.25 |      77.08
+           |      5.41 |     21.62 |     32.43 |     40.54 |     100.00
+           |    100.00 |     66.67 |     75.00 |     83.33 |      77.08
+-----------+-----------+-----------+-----------+-----------+-----------
+Successful |         0 |         4 |         4 |         3 |         11
+           |      0.00 |      8.33 |      8.33 |      6.25 |      22.92
+           |      0.00 |     36.36 |     36.36 |     27.27 |     100.00
+           |      0.00 |     33.33 |     25.00 |     16.67 |      22.92
+-----------+-----------+-----------+-----------+-----------+-----------
+Total      |         2 |        12 |        16 |        18 |         48
+
+Statistics for Table of status by severity
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                3 1.7690       0.6217
+Likelihood Ratio Chi-Square               3 2.1824       0.5354
+
+Cramer's V                           0.1920
+Contingency Coefficient              0.1885
+
+WARNING: 63% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+
+                                       BIVARIATE ANALYSIS: Status AND Attack Type
+
+                                                   The FREQ Procedure
+
+Table of attack_type by status
+
+attack_type   |   Blocked |Successful |      Total
+--------------+-----------+-----------+-----------
+Brute Force   |         7 |         2 |          9
+              |     14.29 |      4.08 |      18.37
+              |     77.78 |     22.22 |     100.00
+              |     18.42 |     18.18 |      18.37
+--------------+-----------+-----------+-----------
+DDoS          |         8 |         1 |          9
+              |     16.33 |      2.04 |      18.37
+              |     88.89 |     11.11 |     100.00
+              |     21.05 |      9.09 |      18.37
+--------------+-----------+-----------+-----------
+Malware       |         6 |         2 |          8
+              |     12.24 |      4.08 |      16.33
+              |     75.00 |     25.00 |     100.00
+              |     15.79 |     18.18 |      16.33
+--------------+-----------+-----------+-----------
+Phishing      |         5 |         2 |          7
+              |     10.20 |      4.08 |      14.29
+              |     71.43 |     28.57 |     100.00
+              |     13.16 |     18.18 |      14.29
+--------------+-----------+-----------+-----------
+Ransomware    |         6 |         2 |          8
+              |     12.24 |      4.08 |      16.33
+              |     75.00 |     25.00 |     100.00
+              |     15.79 |     18.18 |      16.33
+--------------+-----------+-----------+-----------
+SQL Injection |         6 |         2 |          8
+              |     12.24 |      4.08 |      16.33
+              |     75.00 |     25.00 |     100.00
+              |     15.79 |     18.18 |      16.33
+--------------+-----------+-----------+-----------
+Total         |        38 |        11 |         49
+
+Statistics for Table of attack_type by status
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                5 0.9052       0.9698
+Likelihood Ratio Chi-Square               5 1.0066       0.9620
+
+Cramer's V                           0.1359
+Contingency Coefficient              0.1347
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.

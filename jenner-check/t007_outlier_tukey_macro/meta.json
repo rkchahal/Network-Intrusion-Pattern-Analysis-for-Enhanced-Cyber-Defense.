@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_outlier_tukey_macro",
+  "source_file": "Rashpinder_SAS_ProjectCode.sas",
+  "source_blob_sha": "c20dad1480b29ef06aed655c77bf4a416928c135",
+  "source_commit": "59e678a6f456261df3244398b3773c109ea8b7e3",
+  "notes": "The author's %outlier_Analysis macro (Tukey inner-fence method via PROC UNIVARIATE output, call symputx, and a detected_outliers DATA step) run verbatim on duration and num_packets; same 50-row inline sample."
+}

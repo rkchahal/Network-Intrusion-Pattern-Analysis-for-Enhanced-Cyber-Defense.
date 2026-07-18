@@ -1,0 +1,19 @@
+                                                  The MEANS Procedure
+
+ Variable                N   N Miss
+ ----------------------------------
+ packet_size            47        3
+ duration               50        0
+ num_packets            50        0
+ attack_score           50        0
+ rand_noise             50        0
+ log_duration           50        0
+ log_attack_score       50        0
+ ----------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable           N            Mean         Std Dev        Minimum          Maximum
+ ------------------------------------------------------------------------------------
+ packet_size       47     826.2127660     435.1082292     42.0000000     1477.0000000
+ ------------------------------------------------------------------------------------

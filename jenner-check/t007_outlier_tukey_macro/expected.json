@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-18T15:24:53.352259+00:00",
+  "_captured_run_id": "r_c91387d262334d2294a827c184eea026",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Output dataset boxStats has 1 observations and 6 variables.",
+    "NOTE: Wrote fence (1 rows, 10 columns).",
+    "NOTE: PROC PRINT completed: 1 observations printed, 10 variables",
+    "NOTE: Wrote detected_outliers (1 rows, 14 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

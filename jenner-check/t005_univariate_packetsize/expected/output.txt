@@ -1,0 +1,56 @@
+                                                The UNIVARIATE Procedure
+                                                 Variable:  packet_size
+
+                                                        Moments
+
+N                                 47    Sum Weights                       47
+Mean                      826.212766    Sum Observations        38832.000000
+Std Deviation             435.108229    Variance               189319.171138
+Skewness                   -0.301552    Kurtosis                   -1.201721
+Uncorrected SS        40792176.000000    Corrected SS          8708681.872340
+Coeff Variation            52.662976    Std Error Mean             63.467058
+
+            Basic Statistical Measures            
+
+Location              Variability                 
+--------  ----------  -------------  -------------
+Mean      826.212766  Std Deviation     435.108229
+Median    909.000000  Variance       189319.171138
+Mode      952.000000  Range            1435.000000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min        42.000000
+1%            42.000000
+5%            59.000000
+10%          225.000000
+25% Q1       475.000000
+50% Median   909.000000
+75% Q3      1202.000000
+90%         1344.000000
+95%         1373.000000
+99%         1477.000000
+100% Max    1477.000000
+
+           Extreme Observations            
+
+Lowest                Highest              
+--------  ----------  --------  -----------
+Value      42.000000  Value     1344.000000
+Value      58.000000  Value     1348.000000
+Value      59.000000  Value     1373.000000
+Value     133.000000  Value     1394.000000
+Value     225.000000  Value     1477.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         13.017977987         0
+Sign                     23.5         0
+Signed Rank              1128  0.000000002

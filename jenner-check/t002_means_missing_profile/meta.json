@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_means_missing_profile",
+  "source_file": "Rashpinder_SAS_ProjectCode.sas",
+  "source_blob_sha": "c20dad1480b29ef06aed655c77bf4a416928c135",
+  "source_commit": "59e678a6f456261df3244398b3773c109ea8b7e3",
+  "notes": "PROC MEANS n nmiss (missing-value profile) + PROC MEANS on packet_size; same 50-row inline sample of cybersecurity_final.csv in place of the upstream PROC IMPORT."
+}

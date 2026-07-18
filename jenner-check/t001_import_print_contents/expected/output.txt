@@ -1,0 +1,49 @@
+
+  Obs        source_ip   destination_ip  protocol    attack_type  severity      status         timestamp  packet_size      duration  num_packets  attack_score    rand_noise  log_duration  log_attack_score
+-----  ---------------  ---------------  --------  -------------  --------  ----------  ----------------  -----------  ------------  -----------  ------------  ------------  ------------  ----------------
+    1  129.153.198.180  166.25.139.113   HTTP      Ransomware     Low       Blocked     01JAN24:00:00:00          952        118.78          440    2432.72094  -1.276310666  4.7772731268      6.7216470008
+    2  183.214.39.114   38.64.254.108    HTTPS     SQL Injection  High      Blocked     01JAN24:01:00:00          503         89.67           40  1105.1151629  -2.241486134  4.4961363765      6.4384690305
+    3  113.163.209.250  48.74.5.250      ICMP      Phishing       Low       Blocked     01JAN24:02:00:00          489         260.1          363  3312.0586475  -15.83313899  5.5610662109      7.4982421124
+    4  133.144.103.224  23.112.190.220   HTTPS     DDoS           High      Successful  01JAN24:03:00:00         1394  573.24751623          280  6050.0634842  -31.85270837  6.3513176064      8.2892581581
+    5  130.8.186.60     210.174.162.53   HTTPS     Malware        High      Successful  01JAN24:04:00:00         1316        257.34          226  3147.9268327  4.7307592829  5.5503982066      7.4989310661
+    6  77.254.42.34     58.39.68.129     UDP       Brute Force    Medium    Blocked     01JAN24:05:00:00         1348        148.55          456  3024.3971344  18.545169566  5.0009216692      6.9645090583
+    7  112.108.176.251  120.11.51.145    ICMP      Brute Force    High      Blocked     01JAN24:06:00:00         1337         39.37          108  1231.8297223  -14.97229121   3.673004359      5.5630546546
+    8  3.173.150.154    128.116.142.157  ICMP      DDoS           Medium    Blocked     01JAN24:07:00:00           59         208.9          245  2358.4584673  41.351838726  5.3418557164      7.3156519942
+    9  116.115.120.25   135.138.128.252  ICMP      Malware        Medium    Blocked     01JAN24:08:00:00          278          61.9          255  1263.7804233  8.8548805236  4.1255203412      6.0916602517
+   10  160.26.158.113   14.0.31.84       HTTPS     DDoS           Low       Blocked     01JAN24:09:00:00         1333        132.42           33  1783.3731307  5.8168939857   4.885978765      6.8381446138
+   11  181.27.237.216   148.55.187.208   HTTP      Phishing       Low       Blocked     01JAN24:10:00:00          457         19.59           23   525.5978661   -7.07006841  2.9750197424      4.8679954333
+   12  149.198.170.29   38.210.66.109    ICMP      SQL Injection  Critical  Blocked     01JAN24:11:00:00         1373        247.61          333  3532.4772681  27.786384996  5.5118549681      7.4736691324
+   13  124.220.123.53   108.14.225.49    HTTPS     Brute Force    Medium    Successful  01JAN24:12:00:00         1094         37.87           54  929.15118178  -6.098850421   3.634159506      5.5567939282
+   14  202.172.86.30    123.99.116.60    UDP       Phishing       Medium    Blocked     01JAN24:13:00:00         1167        270.94          309  3587.3505411  115.09137174  5.6018974311      7.6067211887
+   15  88.80.186.159    1.141.22.69      HTTP      SQL Injection  Medium    Blocked     01JAN24:14:00:00          225        259.28           49  2433.7094404  2.0364103193  5.5579085974      7.5049400983
+
+... 35 more observations (showing 15 of 50)
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: cyber
+Observations:  50
+Variables:     14
+
+Variables (in alphabetical order):
+
+  #  Variable          Type    Len  Format  Label
+---  ----------------  ----  -----  ------  -----
+  1  attack_score       Num      8          
+  2  attack_type       Char     13          
+  3  destination_ip    Char     15          
+  4  duration           Num      8          
+  5  log_attack_score   Num      8          
+  6  log_duration       Num      8          
+  7  num_packets        Num      8          
+  8  packet_size        Num      8          
+  9  protocol          Char      8          
+ 10  rand_noise         Num      8          
+ 11  severity          Char      8          
+ 12  source_ip         Char     15          
+ 13  status            Char     10          
+ 14  timestamp         Char     16          
+
+-------------------------------------------------------------------------------
